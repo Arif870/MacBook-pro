@@ -167,67 +167,67 @@
 
 // console.log(sumFun);
 
-// Find the largest number of and array
+// // Find the largest number of and array
 
-let arr = [39, 23, 43, 12, 44, 14, 43, 132, -12];
+// let arr = [39, 23, 43, 12, 44, 14, 43, 132, -12];
 
-function largestNumber(number) {
-  let largest = number[0];
+// function largestNumber(number) {
+//   let largest = number[0];
 
-  for (i = 0; i < number.length; i++) {
-    if (number[i] > largest) {
-      largest = number[i];
-    }
-  }
-  return largest;
-}
+//   for (i = 0; i < number.length; i++) {
+//     if (number[i] > largest) {
+//       largest = number[i];
+//     }
+//   }
+//   return largest;
+// }
 
-let largestArrNumber = largestNumber(arr);
+// let largestArrNumber = largestNumber(arr);
 
-console.log(largestArrNumber);
+// console.log(largestArrNumber);
 
-// Lowest Number
+// // Lowest Number
 
-function lowestNumber(numberLow) {
-  let lowest = numberLow[0];
+// function lowestNumber(numberLow) {
+//   let lowest = numberLow[0];
 
-  for (let i = 0; i < numberLow.length; i++) {
-    if (numberLow[i] < lowest) {
-      lowest = numberLow[i];
-    }
-  }
+//   for (let i = 0; i < numberLow.length; i++) {
+//     if (numberLow[i] < lowest) {
+//       lowest = numberLow[i];
+//     }
+//   }
 
-  return lowest;
-}
+//   return lowest;
+// }
 
-let lowestArr = lowestNumber(arr);
+// let lowestArr = lowestNumber(arr);
 
-console.log(lowestArr);
+// console.log(lowestArr);
 
-// fibonacci number
+// // fibonacci number
 
-let fibo = [0, 1];
+// let fibo = [0, 1];
 
-for (i = 2; i <= 10; i++) {
-  fibo[i] = fibo[i - 1] + fibo[i - 2];
-}
-console.log(fibo);
+// for (i = 2; i <= 10; i++) {
+//   fibo[i] = fibo[i - 1] + fibo[i - 2];
+// }
+// console.log(fibo);
 
-// fucntional way
+// // fucntional way
 
-function fibonaciNumber(number) {
-  if (typeof number != "number") {
-    return "Please give a number";
-  }
-  if (number < 2) {
-    return "Please give a number greater then 2";
-  }
-  let fibonacci = [0, 1];
-  for (let i = 2; i <= number; i++) {
-    fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
-  }
-  return fibonacci;
-}
+// function fibonaciNumber(number) {
+//   if (typeof number != "number") {
+//     return "Please give a number";
+//   }
+//   if (number < 2) {
+//     return "Please give a number greater then 2";
+//   }
+//   let fibonacci = [0, 1];
+//   for (let i = 2; i <= number; i++) {
+//     fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
+//   }
+//   return fibonacci;
+// }
 
-let n = fibonaciNumber(10);
-console.log(n);
+// let n = fibonaciNumber(10);
+// console.log(n);

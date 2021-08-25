@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body style="padding: 20px">
+    <div class="container">
+      <div class="blog1">
+        <h1>This is Blog 1</h1>
+        <button id="delete">Delete</button>
+        <p id="info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+          earum illo nostrum cumque perferendis assumenda omnis doloremque et,
+          debitis nam!
+        </p>
+      </div>
+      <div class="blog2">
+        <h1>This is Blog 2</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+          earum illo nostrum cumque perferendis assumenda omnis doloremque et,
+          debitis nam!
+        </p>
+      </div>
+      <div class="blog3">
+        <h1>This is Blog 3</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+          earum illo nostrum cumque perferendis assumenda omnis doloremque et,
+          debitis nam!
+        </p>
+      </div>
+    </div>
+
+    <div class="list">
+      <ul id="ul">
+        <li>Friends-1</li>
+        <li>Friends-2</li>
+        <li>Friends-3</li>
+        <li>Friends-4</li>
+      </ul>
+    </div>
+
+    <button onclick="document.body.style.backgroundColor='black'">
+      Make me black
+    </button>
+    <button onclick="document.body.style.backgroundColor='white'">
+      Make me white
+    </button>
+    <button onclick="makePurple()">make me purple</button>
+
+    <button id="blue">Make me blue</button>
+    <button id="green">Make me green</button>
+    <button id="pink">Make me pink</button>
+    <button id="gray">Make me gray</button>
+
+    <h1 id="heading">Lorem ipsum dolor sit amet.</h1>
+    <button id="change">change heading</button>
+
+    <div id="comments">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni maiores
+        nobis voluptatum. Rerum eos nesciunt mollitia sunt vitae ut aut.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, ullam!
+      </p>
+    </div>
+
+    <textarea name="" id="commentArea" cols="80" rows="5"></textarea>
+    <button id="comment" style="cursor: pointer">post a comment</button>
+    <br />
+    <br />
+    <input
+      type="text"
+      id="delete-input"
+      style="
+        width: 300px;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0px 0px 5px rgb(133, 175, 231);
+        margin-top: 30px;
+      "
+      placeholder="Please write delete to confirm"
+    />
+
+    <button
+      id="delete-btn"
+      disabled
+      style="padding: 8px 20px; margin-left: 20px"
+    >
+      Delete
+    </button>
+
+    <h2 id="delete-text">Type "delete" to delete this value</h2>
+
+    <h1>Event delegate</h1>
+    <hr />
+
+    <section>
+      <ul id="unordered">
+        <li class="item">Arif</li>
+        <li class="item">uz</li>
+        <li class="item">zaman</li>
+        <li class="item">khan</li>
+        <li class="item">mofiz</li>
+      </ul>
+    </section>
+
+    <button id="add">Add</button>
+
+    <h2>Javascript</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, veniam.
+    </p>
+    <h2>I love js DOM</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, veniam.
+    </p>
+    <h2>React</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, veniam.
+    </p>
+
+    <div id="card"></div>
+    <br />
+    <button onclick="dd()">Event</button>
+    <br />
+    <br />
+    <div id="button-group">
+      <button>Click</button>
+      <button>Click</button>
+      <button>Click</button>
+      <button>Click</button>
+      <button>Click</button>
+      <button>Click</button>
+    </div>
+
+    <br />
+
+    <input id="remove-text" type="text" />
+    <button id="deleteBtn" disabled>delete</button>
+    <h3 id="deleteText">Write 'delete' to remove this !</h3>
+
+    <img
+      id="image"
+      src="./logo-white.png"
+      style="border: 1px solid gray; border-radius: 10px"
+      alt=""
+    />
+
+    <div
+      id="iffty"
+      class="bgcolor"
+      style="
+        width: 500px;
+        height: 200px;
+        background-color: purple;
+        border-radius: 10px;
+      "
+    ></div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+  </body>
+
+  <script src="bg.js"></script>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>account details</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="login">
+          <h1>Account <span>Details</span></h1>
+          <hr />
+        </div>
+
+        <div class="details">
+          <div class="total">
+            <h2>Deposit</h2>
+            <h1>$ <span id="totalDeposit">00</span></h1>
+          </div>
+          <div style="background-color: mediumslateblue" class="total">
+            <h2>Withdraw</h2>
+            <h1>$ <span id="previous-withdraw">00</span></h1>
+          </div>
+          <div style="background-color: purple" class="total">
+            <h2>Balance</h2>
+            <h1>$ <span id="current-balance">1200</span></h1>
+          </div>
+        </div>
+
+        <div class="transition">
+          <div class="deposit-form">
+            <p>Please deposit</p>
+            <input id="deposit-input" type="text" placeholder="Deposit money" />
+            <br />
+            <button id="deposit-button">Deposit</button>
+          </div>
+          <div class="withdraw-form">
+            <p>Please Withdraw</p>
+            <input
+              id="withdraw-input"
+              type="text"
+              placeholder="Withdraw money"
+            />
+            <br />
+            <button id="withdraw-button">Withdraw</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./bank.js"></script>
+  </body>
+</html>

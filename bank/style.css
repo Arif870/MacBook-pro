@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+body {
+  font-family: poppins;
+}
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.login h1 {
+  color: #333333;
+  text-align: center;
+}
+
+.login h1 span {
+  color: purple;
+}
+.login-form {
+  margin-top: 40px;
+  background-color: tomato;
+  padding: 20px;
+  border-radius: 6px;
+  text-align: center;
+}
+.login-form h3 {
+  text-align: start;
+  color: rgb(75, 13, 64);
+}
+.login-form input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: none;
+  margin: 10px 0px;
+}
+.login-form button {
+  padding: 8px 20px;
+  border: none;
+  background-color: rgb(75, 13, 64);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.details {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+.details .total {
+  width: 30%;
+  background-color: tomato;
+  border-radius: 6px;
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+
+.deposit-form,
+.withdraw-form {
+  background-color: turquoise;
+  width: 48%;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 6px;
+}
+.withdraw-form {
+  background-color: rgb(42, 165, 104);
+}
+.deposit-form p,
+.withdraw-form p {
+  font-size: 25px;
+}
+.deposit-form input[type="text"],
+.withdraw-form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 6px;
+  margin: 10px 0px;
+}
+
+.deposit-form button,
+.withdraw-form button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: tomato;
+  color: white;
+  margin: auto;
+  display: block;
+  cursor: pointer;
+}
+.transition {
+  display: flex;
+  gap: 20px;
+}
