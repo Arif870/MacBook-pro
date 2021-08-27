@@ -6,12 +6,11 @@ let loadCountries = () => {
 loadCountries();
 
 let allCountries = countries => {
-  let selectDiv = document.getElementById("selectCountry");
-  for (let country of countries) {
+  let select = document.getElementById("selectCountry");
+
+  countries.forEach(country => {
     let option = document.createElement("option");
-
     option.innerText = country.name;
-
-    selectDiv.appendChild(option);
-  }
+    select.appendChild(option);
+  });
 };
