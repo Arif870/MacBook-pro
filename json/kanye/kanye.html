@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kanye Rest API</title>
+    <style>
+      p {
+        background-color: black;
+        color: azure;
+        padding: 10px;
+      }
+      button {
+        background-color: midnightblue;
+        cursor: pointer;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: bold;
+      }
+      #viewQuote p {
+        background-color: midnightblue;
+        color: mintcream;
+        padding: 10px;
+        font-family: poppins;
+        border-radius: 5px;
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="quoteLoads()">Get kanye quote</button>
+    <div id="viewQuote"></div>
+    <div id="user"></div>
+    <script src="./kanye.js"></script>
+  </body>
+</html>
