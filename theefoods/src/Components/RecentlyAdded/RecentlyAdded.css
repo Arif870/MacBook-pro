@@ -1,0 +1,14 @@
+.recent {
+  margin-left: 30px;
+}
+.recent h1 {
+  font-weight: 300;
+  text-align: center;
+}
+.recent p {
+  background-color: lightslategrey;
+  color: aliceblue;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
