@@ -1,0 +1,20 @@
+.recipies ul li {
+  list-style: none;
+  margin: 0px 20px;
+  color: #333;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+
+.recipies ul {
+  padding-left: 0px;
+}
+.recipies ul a {
+  text-decoration: none;
+}
+
+.recipies ul li:focus,
+.recipies ul li:hover {
+  border-bottom: 2px solid #e51a4b;
+  color: #e51a4b;
+}
