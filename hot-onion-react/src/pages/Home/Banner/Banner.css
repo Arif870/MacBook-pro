@@ -1,6 +1,22 @@
 .banner {
   background-image: url("../../../utilities/images/bannerbackground.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+}
+.searchbtn {
+  background-color: #e51a4b;
+  color: white !important;
+  border-radius: 0px 3px 3px 0px;
+}
+.banner {
+  height: 600px;
+}
+.redonion {
+  color: #e51a4b;
+}
+
+@media screen and (max-width: 850px) {
+  .searchbox {
+    width: 90% !important;
+  }
 }
