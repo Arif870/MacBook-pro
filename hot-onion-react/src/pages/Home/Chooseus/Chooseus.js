@@ -17,7 +17,7 @@ export default function Chooseus() {
         We have expert cooks and dedicated employee. Our core service is home
         delivery
       </p>
-      <div className="d-flex mt-5 justify-content-center flex-wrap">
+      <div className="d-flex mt-5 justify-content-center flex-wrap align-items-center">
         <Card className="m-3">
           <Card.Img className="w-100 mx-auto" variant="top" src={cook1} />
           <Card.Body>

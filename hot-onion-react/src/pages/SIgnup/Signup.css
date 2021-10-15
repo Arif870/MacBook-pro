@@ -1,0 +1,42 @@
+.signup {
+  background-image: url("../../utilities/images/bannerbackgroundsignup.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.signup img {
+  width: 250px;
+  margin-top: 80px;
+}
+.signup small {
+  color: #e51a4b;
+  cursor: pointer;
+}
+.signup a {
+  text-decoration: none;
+}
+.signup form {
+  width: 400px;
+  margin-top: 80px;
+}
+@media screen and (max-width: 688px) {
+  .signup form {
+    width: 300px;
+  }
+}
+.signup form button {
+  background-color: #e51a4b;
+  border: none;
+  width: 100%;
+  padding: 15px;
+}
+.signup form button:hover {
+  background-color: #d82d55;
+}
+.signup form input {
+  border: none;
+  background-color: rgb(241, 241, 241);
+  padding: 15px;
+  font-weight: 400;
+  font-size: 12px;
+}
